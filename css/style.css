@@ -1,0 +1,130 @@
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+:hover {
+  transition-duration: 350ms;
+  transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.header {
+  background-color: rgb(252, 183, 192);
+  padding: 20px 0;
+}
+
+.header-position {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.navigation {
+  padding-left: 200px;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 25px;
+}
+
+.navigation-link {
+  color: #0e600b;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.navigation-link:hover {
+  color: #fff;
+}
+
+.hero {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  display: flex;
+}
+
+.hero .container {
+  background-color: rgb(23, 43, 132);
+  border: none;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  width: 700px;
+  padding: 80px 50px;
+  position: relative;
+}
+
+.hero-title {
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+}
+
+.hero-text {
+  width: 400px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #f6ff00;
+}
+
+.hero-icon {
+  position: absolute;
+  top: 75px;
+  right: 0;
+  fill: red;
+  transition-property: fill;
+  cursor: pointer;
+}
+
+.hero-icon:hover {
+  fill: rgb(255, 255, 0);
+}
+
+.biographie {
+  padding-top: 70px;
+}
