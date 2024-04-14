@@ -81,9 +81,17 @@ a {
   color: #fff;
 }
 
+.slogan {
+  font-family: "Butterfly Kids", cursive;
+  font-weight: 400;
+  font-size: 60px;
+  font-style: italic;
+  padding-left: 200px;
+}
+
 .hero {
   padding-top: 40px;
-  padding-bottom: 60px;
+  padding-bottom: 80px;
   display: flex;
 }
 
@@ -107,7 +115,7 @@ a {
 
 .hero-text {
   width: 400px;
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #f6ff00;
 }
@@ -125,6 +133,109 @@ a {
   fill: rgb(255, 255, 0);
 }
 
+.advantage {
+  padding-bottom: 80px;
+}
+
+.advantage-list {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.advantage-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.advantage-info {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+  width: 276px;
+}
+
+.birthday-plan {
+  padding-bottom: 80px;
+}
+
+.birthday-plan-title {
+  font-family: "Butterfly Kids", cursive;
+  font-weight: 400;
+  font-size: 60px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.birthday-plan-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: rgba(111, 119, 135, 1);
+  width: 450px;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mothers-fotos {
+  padding-bottom: 60px;
+}
+
+.mothers-fotos-title {
+  font-family: "Butterfly Kids", cursive;
+  font-weight: 400;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.mothers-fotos-text {
+  color: rgba(111, 119, 135, 1);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  width: 550px;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.fotos-list {
+  display: flex;
+  column-gap: 30px;
+}
+
+.mothers-item-fotos {
+  border-radius: 35px;
+}
+
 .biographie {
   padding-top: 70px;
+}
+
+.biographie-title {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.biographie-text {
+  margin-top: 40px;
+  width: 700px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
 }
