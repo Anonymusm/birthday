@@ -53,7 +53,7 @@ a {
   padding: 20px 0;
 }
 
-.header-position {
+.header-position, .footer-position {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -160,7 +160,7 @@ a {
   font-size: 14px;
   line-height: 1.71;
   color: #757575;
-  width: 276px;
+  width: 289px;
 }
 
 .birthday-plan {
@@ -187,8 +187,46 @@ a {
   margin-left: auto;
 }
 
+.plan-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.plan-info-wrapper {
+  position: relative;
+}
+
+.plan-info {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  background: rgba(47, 48, 58, 0.614);
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+.plan-item {
+  flex-basis: calc(100% / 1 - 30px);
+  border-radius: 8px;
+}
+
+.plan-img {
+  width: 270px;
+  height: 180px;
+}
+
 .mothers-fotos {
-  padding-bottom: 60px;
+  padding-bottom: 100px;
+  background: #f5f4fa;
+  padding-top: 50px;
 }
 
 .mothers-fotos-title {
@@ -213,7 +251,7 @@ a {
 
 .fotos-list {
   display: flex;
-  column-gap: 30px;
+  column-gap: 50px;
 }
 
 .mothers-item-fotos {
@@ -222,6 +260,7 @@ a {
 
 .biographie {
   padding-top: 70px;
+  padding-bottom: 132px;
 }
 
 .biographie-title {
@@ -238,4 +277,9 @@ a {
   font-family: "Inter", sans-serif;
   font-weight: 300;
   font-size: 14px;
+}
+
+.footer {
+  background-color: rgb(252, 183, 192);
+  padding: 20px 0;
 }
